@@ -1,0 +1,138 @@
+﻿.runkeeper {
+	
+	
+}
+
+#activityStats {
+	background: url(./assets/stats-bgbody.png) repeat-x 0 0;
+	width: 588px;
+	height: 64px;
+	display: table;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+#activityStatsReflection {
+	background: url(./assets/stats-reflection.png) no-repeat 0 0;
+	position: absolute;
+	
+	width: 588px;
+	height: 64px;
+	z-index: 10;
+}
+
+.activityStatsItem {
+	display: block;
+	float: left;
+	vertical-align: middle;
+	height: 54px;
+	border: none;
+	text-align: center;
+	padding: 5px 4px;
+	color: #FFF;
+}
+
+.activityStatsItem#statsDistance {
+	width: 80px;
+}
+
+.activityStatsItem#statsDuration {
+	width: 122px;
+}
+
+.activityStatsItem#statsPace {
+	width: 80px;
+}
+
+.activityStatsItem#statsSpeed {
+	width: 86px;
+}
+
+.activityStatsItem#statsCalories {
+	width: 103px;
+}
+
+.activityStatsItem#statsElevation {
+	width: 63px;
+}
+
+.activityStatsItem#statsHeartRate {
+	display: none;
+}
+
+#activityStats.heartRate .activityStatsItem#statsDistance {
+	width: 63px;
+}
+
+#activityStats.heartRate .activityStatsItem#statsDuration {
+	width: 104px;
+}
+
+#activityStats.heartRate .activityStatsItem#statsPace {
+	width: 63px;
+}
+
+#activityStats.heartRate .activityStatsItem#statsSpeed {
+	width: 69px;
+}
+
+#activityStats.heartRate .activityStatsItem#statsCalories {
+	width: 85px;
+}
+
+#activityStats.heartRate .activityStatsItem#statsElevation {
+	width: 45px;
+}
+
+#activityStats.heartRate .activityStatsItem#statsHeartRate {
+	width: 75px;
+	display: block;
+}
+
+.activityStatsDivider {
+	background: url(./assets/stats-divider.png) no-repeat 0 0;
+	display: block;
+	float: left;
+	height: 64px;
+	width: 1px;
+}
+
+#activityStats .activityStatsDivider.heartRate {
+	display: none;
+}
+
+#activityStats.heartRate .activityStatsDivider.heartRate {
+	display: block;
+}
+
+.activityStatsItem .labelText {
+	font-family: Helvetica Neue, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	text-shadow: 1px 1px 2px #333;
+	//color: #111;
+	//height: 100%;
+	line-height: 1;
+}
+
+.activityStatsItem .mainText {
+	font-family: Helvetica Neue, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	text-shadow: 0.1em 0.1em 0.2em #333;
+	margin: 3px 0;
+	//color: #111;
+	//height: 100%;
+	line-height: 1;
+}
+
+.activityStatsItem .unitText {
+	font-family: Helvetica Neue, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	text-shadow: 1px 1px 2px #333;
+	//color: #111;
+	//height: 100%;
+	line-height: 1;
+}
